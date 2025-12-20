@@ -1,0 +1,28 @@
+# Go build artifacts
+bin/
+pkg/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+*.key
+*.pem
+
+# Editor temp files
+*~
+*.swp
+*.tmp
+
