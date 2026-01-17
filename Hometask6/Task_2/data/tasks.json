@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"name": "Wake up",
+		"completed": true,
+		"created_at": "2026-01-17T15:23:10.022578+03:00",
+		"completed_at": "2026-01-17T15:25:21.806269+03:00"
+	},
+	{
+		"id": 2,
+		"name": "Play Fortnite for 30 minutes",
+		"completed": false,
+		"created_at": "2026-01-17T15:24:34.076148+03:00",
+		"completed_at": "0001-01-01T00:00:00Z"
+	},
+	{
+		"id": 3,
+		"name": "Learn go",
+		"completed": false,
+		"created_at": "2026-01-17T15:24:55.696009+03:00",
+		"completed_at": "0001-01-01T00:00:00Z"
+	}
+]
