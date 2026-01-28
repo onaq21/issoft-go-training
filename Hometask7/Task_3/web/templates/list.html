@@ -1,0 +1,37 @@
+{{define "title"}} Task Manager {{end}}
+
+{{define "table"}} 
+  <table style="margin: 0 auto; border-collapse: collapse;" border="1" width="80%">
+  <thead>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Completed</th>
+        <th>Created at</th>
+        <th>Completed at</th>
+      </tr>
+    </thead>
+    <tbody align="center">
+      {{range .}}
+        {{template "row" .}}
+      {{end}}
+    </tbody>
+  </table>
+{{end}}
+
+{{define "row"}}
+  <tr>
+    <td>{{.ID}}</td>
+    <td>{{.Name}}</td>
+    <td>
+      <span style="color:{{if .Completed}}green{{else}}red{{end}}">
+        {{if .Completed}}✓{{else}}✗{{end}}
+      </span>
+    </td>
+    <td>{{.CreatedAt}}</td>
+    <td>
+      {{if .Completed}}{{.CreatedAt}}{{else}}-{{end}}
+    </td>
+  </tr>
+{{end}}

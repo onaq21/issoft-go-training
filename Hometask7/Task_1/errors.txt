@@ -1,0 +1,7 @@
+1 Alexey Volosevich: constraint failed: UNIQUE constraint failed: Users.Name (2067)
+2 John Doe: constraint failed: UNIQUE constraint failed: Users.Name (2067)
+3 Bob: Too short
+4 Mary Robinson: constraint failed: UNIQUE constraint failed: Users.Name (2067)
+5 123 Invalid: Invalid data
+6 Anna Maria Ivanova: Too long
+7 @@@ ###: Invalid data
